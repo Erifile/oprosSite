@@ -1,0 +1,13 @@
+:root {
+  /* Включаем поддержку обеих тем */
+  color-scheme: light dark;
+  
+  /* Определяем цвета для светлой/темной темы */
+  --bg-color: light-dark(white, #121212);
+  --text-color: light-dark(black, #e0e0e0);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
